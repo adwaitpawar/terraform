@@ -24,6 +24,6 @@ resource "aws_instance" "myinstance" {
   key_name = aws_key_pair.mykeypair.key_name
 
   tags = {
-    Name = "my-ec2-instance"
+    Name = "my-2-instance"
   }
 }
